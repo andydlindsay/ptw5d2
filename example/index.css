@@ -1,0 +1,33 @@
+#header {
+  margin: 15px auto;
+  border: 2px solid lightseagreen;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+article {
+  max-width: 40%;
+  padding: 0 20px;
+}
+
+#left-article {
+  float: left;
+}
+
+#right-article {
+  float: right;
+}
+
+.subtitle {
+  color: darkolivegreen;
+}
+
+#list {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.notes {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkslateblue;
+}
