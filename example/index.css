@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+/* #right-article h3.subtitle {
+  color: magenta;
+  font-size: 5em;
+} */
+
 article {
   max-width: 40%;
   padding: 0 20px;

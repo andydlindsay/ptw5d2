@@ -10,7 +10,8 @@
 <body>
   <header id="header">
     <h1 id="title">Advanced jQuery</h1>
-    <h4 class="subtitle">Integer dignissim ipsum at lacus tristique bibendum. Donec ante dolor, consequat vitae fringilla et, molestie in nibh.</h4>
+    <h4 id="paragraph">Integer dignissim ipsum at lacus tristique bibendum. Donec ante dolor, consequat vitae fringilla et, molestie in nibh.</h4>
+    <button type="button" id="header-button">Click Me</button>
   </header>
 
   <main>
@@ -18,18 +19,25 @@
       <h2 class="subtitle">JavaScript Data Types</h2>
       <ul id="list">
         <li>Boolean</li>
-        <li>String</li>
+        <li id="middle-child">String</li>
         <li>Null</li>
       </ul>
     </article>
 
     <article id="right-article">
-      <h2 class="subtitle">Interesting Notes</h2>
+      <h3 class="subtitle">Interesting Notes</h3>
       <p class="notes">Aliquam euismod convallis congue. Etiam mauris dui, consectetur non ligula a, consequat posuere purus.</p>
       <p class="notes">Mauris scelerisque varius felis eget rutrum. In hac habitasse platea dictumst. Nullam sed augue ante.</p>
       <p class="notes">In varius sapien at turpis eleifend pretium. Donec venenatis velit blandit risus bibendum tincidunt.</p>
     </article>
   </main>
+
+  <form id="login-form">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"/>
+    <br/>
+    <button type="submit">Log In</button>
+  </form>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
